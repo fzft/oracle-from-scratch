@@ -1,0 +1,220 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/fangzhenfutao/web3/crypto-oracle/contracts/CallerContract.sol": {
+      "lastModificationDate": 1677343652719,
+      "contentHash": "9c005662974e9369d10da66ac59f52a1",
+      "sourceName": "contracts/CallerContract.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./EthPriceOracleInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CallerContract"
+      ]
+    },
+    "/Users/fangzhenfutao/web3/crypto-oracle/contracts/EthPriceOracleInterface.sol": {
+      "lastModificationDate": 1677343600426,
+      "contentHash": "30c9aa91309bbdf04b32d7857e2ad5e1",
+      "sourceName": "contracts/EthPriceOracleInterface.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EthPriceOracleInterface"
+      ]
+    },
+    "/Users/fangzhenfutao/web3/crypto-oracle/contracts/oracle/CallContractInterface.sol": {
+      "lastModificationDate": 1677322764554,
+      "contentHash": "83a88687b63eee0f1dfefe40c207201a",
+      "sourceName": "contracts/oracle/CallContractInterface.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": [
+        "CallerContractInterface"
+      ]
+    },
+    "/Users/fangzhenfutao/web3/crypto-oracle/contracts/oracle/EthPriceOracle.sol": {
+      "lastModificationDate": 1677342682019,
+      "contentHash": "08c9cdbdf9d937e22df86b65219e5ed1",
+      "sourceName": "contracts/oracle/EthPriceOracle.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "./CallContractInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EthPriceOracle"
+      ]
+    },
+    "/Users/fangzhenfutao/web3/crypto-oracle/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1677319751468,
+      "contentHash": "e436cea06129be2c73cda4b1acc848b5",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/fangzhenfutao/web3/crypto-oracle/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1677319751457,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    }
+  }
+}
