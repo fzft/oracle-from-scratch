@@ -7,23 +7,32 @@
 const hre = require("hardhat");
 
 async function main() {
-  const OracleContract = await hre.ethers.getContractFactory("EthPriceOracle");
-  const oracleContract = await OracleContract.deploy();
+  // const OracleContract = await hre.ethers.getContractFactory("EthPriceOracle");
+  // const oracleContract = await OracleContract.deploy();
 
-  await oracleContract.deployed();
+  // await oracleContract.deployed();
 
-  const CallerContract = await hre.ethers.getContractFactory("CallerContract");
-  const callerContract = await CallerContract.deploy();
+  // const CallerContract = await hre.ethers.getContractFactory("CallerContract");
+  // const callerContract = await CallerContract.deploy();
 
-  await callerContract.deployed();
+  // await callerContract.deployed();
+
+  const PriceConsumer = await hre.ethers.getContractFactory("PriceConsumerV3")
+  const priceConsumer = await PriceConsumer.deploy();
+  
+  await priceConsumer.deployed()
+
+  // console.log(
+  //   `oracleContract  deployed to ${oracleContract.address}`
+  // );
+
+  // console.log(
+  //   `callerContract  deployed to ${callerContract.address}`
+  // );
 
   console.log(
-    `oracleContract  deployed to ${oracleContract.address}`
-  );
-
-  console.log(
-    `callerContract  deployed to ${callerContract.address}`
-  );
+    `priceConsumer  deployed to ${priceConsumer.address}`
+  )
 }
 
 // We recommend this pattern to be able to use async/await everywhere
